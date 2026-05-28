@@ -1,82 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
+  font-family: 'Inter', sans-serif;
+  background: #050816;
   color: white;
 }
 
-.container {
-  padding: 40px;
-}
-
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero h1 {
-  font-size: 60px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 22px;
-  color: #cbd5e1;
-}
-
-.section {
-  margin-top: 60px;
-}
-
-.section h2 {
-  font-size: 35px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #3b82f6;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.skill-box {
-  background: #1e293b;
-  padding: 12px 20px;
-  border-radius: 12px;
-  transition: 0.3s;
-}
-
-.skill-box:hover {
-  transform: scale(1.08);
-  background: #2563eb;
-}
-
-.project-card {
-  background: #1e293b;
-  padding: 25px;
-  border-radius: 18px;
-  margin-bottom: 25px;
-  transition: 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-8px);
-}
-
-.contact-box {
-  background: #1e293b;
-  padding: 30px;
-  border-radius: 18px;
+* {
+  box-sizing: border-box;
 }
 
 a {
-  color: #60a5fa;
   text-decoration: none;
-}
-
-a:hover {
-  color: white;
 }
