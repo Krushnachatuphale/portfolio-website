@@ -1,7 +1,6 @@
 import profile from "./assets/profile.png";
 import churnDashboard from "./assets/customer-churn-dashboard.png";
 import { useEffect } from "react";
-import ParticlesBackground from "./ParticlesBackground";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowRight } from "lucide-react";
 import "./App.css";
@@ -93,7 +92,6 @@ const skillGroups = [
 
   return (
     <div className="min-h-screen bg-[#050816] text-white overflow-hidden relative">
-      <ParticlesBackground />
       <motion.div
   className="fixed top-0 left-0 w-[400px] h-[400px] rounded-full bg-blue-500/20 blur-[120px] pointer-events-none z-0"
   style={{
