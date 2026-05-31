@@ -14,7 +14,9 @@
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.3.0"
+    "react-tsparticles": "^2.12.2",
+    "tailwindcss": "^4.3.0",
+    "tsparticles": "^4.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.0",
